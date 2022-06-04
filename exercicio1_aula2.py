@@ -4,6 +4,16 @@ from pyspark.sql.functions import *
 from pyspark import SparkContext, SparkConf
 
 
+#### GRUPO 2 #####
+
+#### Integrantes ########
+# Daniela
+# Leandro
+# Maurício
+# Miguel
+# Rogério
+
+
 
 if __name__ == "__main__":
 
