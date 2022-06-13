@@ -47,6 +47,8 @@ if __name__ == "__main__":
     df5=df4.sortBy(lambda x:x[1])
     # print(df5.collect())
     
-    df5.map(print_values).collect()
+    # df5.map(print_values).collect()
+
+    df5.foreach(print_values)
   
     spark.stop()
